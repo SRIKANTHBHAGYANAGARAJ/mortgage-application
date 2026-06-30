@@ -19,8 +19,6 @@
 ### ?? Mortgage Calculator 
 ![Mortgage Calculator](./images/calculator.png) 
  
-### ?? AI Chatbot 
-![AI Chatbot](./images/chatbot.png) 
  
 ### ?? Dashboard 
 ![Dashboard](./images/dashboard.png) 
