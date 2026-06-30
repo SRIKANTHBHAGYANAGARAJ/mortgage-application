@@ -9,3 +9,5 @@ Thumbs.db
 BackEnd/target/ 
 FrontEnd/node_modules/ 
 FrontEnd/build/ 
+FrontEnd/.env 
+BackEnd/src/main/resources/application.properties 
