@@ -1,0 +1,229 @@
+.bulk-upload-page {
+  min-height: 100vh;
+  padding: 100px 24px 60px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bulk-upload-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bulk-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.bulk-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.bulk-upload-card {
+  padding: 32px;
+}
+
+.upload-zone {
+  border: 2px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.upload-zone:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.upload-label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.upload-icon {
+  font-size: 48px;
+}
+
+.upload-text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.upload-supported {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.upload-error {
+  background: rgba(255, 59, 48, 0.1);
+  border: 1px solid rgba(255, 59, 48, 0.2);
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: #ff6b6b;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.progress-wrapper {
+  margin: 16px 0;
+}
+
+.progress-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #00d4ff, #007bff);
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.progress-text {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 8px;
+}
+
+.upload-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.upload-results {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.results-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00e676;
+  margin-bottom: 16px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.result-card {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.result-card.total {
+  border-left: 3px solid #00d4ff;
+}
+
+.result-card.success {
+  border-left: 3px solid #00e676;
+}
+
+.result-card.failed {
+  border-left: 3px solid #ff6b6b;
+}
+
+.result-label {
+  display: block;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.result-value {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.error-details {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.error-details h5 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.error-scroll {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.error-line {
+  color: #ff6b6b;
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.bulk-tips {
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.bulk-tips h4 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.bulk-tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bulk-tips li {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .bulk-title {
+    font-size: 28px;
+  }
+
+  .upload-zone {
+    padding: 24px;
+  }
+
+  .upload-actions {
+    flex-direction: column;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+}

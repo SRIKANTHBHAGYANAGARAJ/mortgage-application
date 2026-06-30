@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  background: #0a1628;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-arrow {
+  margin-left: 4px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover .btn-arrow,
+.btn-secondary:hover .btn-arrow {
+  transform: translateX(4px);
+}
+
+/* Page Transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}

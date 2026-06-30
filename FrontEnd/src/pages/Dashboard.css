@@ -1,0 +1,222 @@
+.dashboard-page {
+  min-height: 100vh;
+  padding: 100px 24px 60px;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.dashboard-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.stat-card-glass {
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.3s ease;
+}
+
+.stat-card-glass:hover {
+  transform: translateY(-4px);
+  border-color: var(--stat-color);
+}
+
+.stat-icon {
+  font-size: 32px;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.section-title-small {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.recent-list {
+  padding: 8px 0;
+}
+
+.recent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.recent-item:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.recent-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.recent-name {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.recent-details {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+}
+
+.recent-status {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background: rgba(255, 217, 61, 0.15);
+  color: #ffd93d;
+}
+
+.status-approved {
+  background: rgba(0, 230, 118, 0.15);
+  color: #00e676;
+}
+
+.status-denied {
+  background: rgba(255, 59, 48, 0.15);
+  color: #ff6b6b;
+}
+
+.status-pending_review {
+  background: rgba(255, 217, 61, 0.15);
+  color: #ffd93d;
+}
+
+.recent-date {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 13px;
+}
+
+.empty-state {
+  padding: 40px;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.empty-text {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-sm {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.loading-skeleton {
+  padding: 16px 20px;
+}
+
+.skeleton-row {
+  height: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  animation: shimmer 1.5s ease-in-out infinite;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 25%,
+    rgba(255, 255, 255, 0.06) 50%,
+    rgba(255, 255, 255, 0.03) 75%
+  );
+  background-size: 200% 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+  }
+
+  .recent-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .recent-status {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

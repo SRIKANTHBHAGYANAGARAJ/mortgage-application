@@ -1,0 +1,149 @@
+.about-page {
+  min-height: 100vh;
+  padding-top: 72px;
+}
+
+.about-hero {
+  position: relative;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.about-sphere-1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #00d4ff, transparent);
+  top: -200px;
+  right: -150px;
+  filter: blur(80px);
+  opacity: 0.12;
+  animation: floatSphere 8s ease-in-out infinite;
+}
+
+.about-sphere-2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #6c5ce7, transparent);
+  bottom: -150px;
+  left: -100px;
+  filter: blur(80px);
+  opacity: 0.1;
+  animation: floatSphere 10s ease-in-out infinite reverse;
+}
+
+.about-hero-content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+  z-index: 1;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.about-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.value-card {
+  padding: 32px 24px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(0, 212, 255, 0.2);
+}
+
+.value-icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.value-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.value-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+}
+
+.about-cta {
+  padding: 48px 32px;
+  text-align: center;
+}
+
+.about-cta h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.about-cta p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-cta h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}

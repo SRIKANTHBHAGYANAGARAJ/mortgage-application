@@ -1,0 +1,11 @@
+node_modules/ 
+target/ 
+build/ 
+.idea/ 
+.vscode/ 
+.DS_Store 
+Thumbs.db 
+*.log 
+BackEnd/target/ 
+FrontEnd/node_modules/ 
+FrontEnd/build/ 

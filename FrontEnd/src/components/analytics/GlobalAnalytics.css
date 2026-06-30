@@ -1,0 +1,144 @@
+.global-analytics {
+  padding: 100px 24px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.analytics-header {
+  margin-bottom: 40px;
+}
+
+.analytics-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.analytics-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.trends-card,
+.competitors-card,
+.competitor-chart {
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.trend-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.trend-stat {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.stat-value {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.trend-decreasing {
+  color: #00e676;
+}
+
+.trend-increasing {
+  color: #ff6b6b;
+}
+
+.competitor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.competitor-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+.competitor-item span {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.comp-name {
+  flex: 2;
+  font-weight: 500;
+  color: #ffffff !important;
+}
+
+.comp-rate {
+  flex: 1;
+  font-weight: 600;
+  color: #00d4ff !important;
+}
+
+.comp-fee {
+  flex: 1;
+}
+
+.comp-satisfaction {
+  flex: 1;
+}
+
+.competitor-chart {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trend-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .competitor-item {
+    flex-wrap: wrap;
+  }
+
+  .analytics-title {
+    font-size: 28px;
+  }
+}
