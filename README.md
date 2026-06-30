@@ -1,4 +1,4 @@
-# ?? Mortgage-io - Full-Stack Mortgage Application with AI Integration 
+# ?? Mortgage-io - Full-Stack Data Realtime Mortgage Application with AI Integration and DataPiple
  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.18-brightgreen) 
 ![React](https://img.shields.io/badge/React-18.2.0-blue) 
@@ -11,29 +11,27 @@
  
 --- 
  
-## ?? Application Screenshots 
+##  Application Screenshots 
  
-### ?? Home Page 
+### 1) Home Page 
 ![Home Page](./images/homepage.png) 
  
-### ?? Mortgage Calculator 
+### 2) Mortgage Calculator 
 ![Mortgage Calculator](./images/calculator.png) 
  
-### ?? AI Chatbot 
-![AI Chatbot](./images/chatbot.png) 
  
-### ?? Dashboard 
+### 3) Dashboard 
 ![Dashboard](./images/dashboard.png) 
  
 --- 
  
-## ?? Overview 
+##  Overview 
  
 **Mortgage-io** is a full-stack mortgage application that leverages **Artificial Intelligence** to provide intelligent mortgage predictions, real-time calculations, and personalized financial advice. 
  
 --- 
  
-## ??? Technology Stack 
+##  Technology Stack 
  
 ### Backend 
 - Spring Boot 2.7.18 
@@ -60,7 +58,7 @@
  
 --- 
  
-## ? Features 
+##  Features 
  
 ### User Features 
 - ?? Browse Mortgage Offers 
@@ -154,12 +152,12 @@ npm start
  
 --- 
  
-## ?? API Endpoints 
+##  API Endpoints 
  
  
 --- 
  
-## ?? Deployment 
+##  Deployment 
  
 ### Docker Deployment 
 ```bash 
@@ -175,7 +173,7 @@ docker-compose up -d
  
 --- 
  
-## ?? Contributing 
+##  Contributing 
  
 1. Fork the repository 
 2. Create a feature branch: `git checkout -b feature/YourFeature` 
@@ -185,13 +183,13 @@ docker-compose up -d
  
 --- 
  
-## ?? License 
+##  License 
  
 This project is licensed under the MIT License. 
  
 --- 
  
-## ?? Contact 
+##  Contact 
  
 - **GitHub**: [SRIKANTHBHAGYANAGARAJ](https://github.com/SRIKANTHBHAGYANAGARAJ) 
 - **Repository**: [mortgage-io](https://github.com/SRIKANTHBHAGYANAGARAJ/mortgage-io) 
@@ -199,7 +197,7 @@ This project is licensed under the MIT License.
  
 --- 
  
-## ?? Acknowledgments 
+##  Acknowledgments 
  
 - **Spring Boot** for the robust backend framework 
 - **React** for the responsive UI 
@@ -211,12 +209,12 @@ This project is licensed under the MIT License.
  
 --- 
  
-## ? Show Your Support 
+##  Show Your Support 
  
 If you find this project useful, please give it a ? on GitHub! 
  
 --- 
  
 **Built with ?? using Spring Boot, React, and AI** 
- 
+ *Email-id:srikanthbhagayanagaraj@gmail.com 
 *Last Updated: July 2026* 
