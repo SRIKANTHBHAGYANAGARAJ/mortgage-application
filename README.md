@@ -11,27 +11,27 @@
  
 --- 
  
-## ?? Application Screenshots 
+## Application Screenshots 
  
-### ?? Home Page 
+### 1) Home Page 
 ![Home Page](./images/homepage.png) 
  
-### ?? Mortgage Calculator 
+### 2) Mortgage Calculator 
 ![Mortgage Calculator](./images/calculator.png) 
  
  
-### ?? Dashboard 
+### 3) Dashboard 
 ![Dashboard](./images/dashboard.png) 
  
 --- 
  
-## ?? Overview 
+## Overview 
  
 **Mortgage-io** is a full-stack mortgage application that leverages **Artificial Intelligence** to provide intelligent mortgage predictions, real-time calculations, and personalized financial advice. 
  
 --- 
  
-## ??? Technology Stack 
+##  Technology Stack 
  
 ### Backend 
 - Spring Boot 2.7.18 
@@ -55,19 +55,19 @@
  
 --- 
  
-## ?? AI Tools and Services 
+## AI Tools and Services 
  
 - LangChain4j - AI framework for Java 
 - OpenAI GPT - Natural language processing 
 - Apache OpenNLP - Text analysis and entity extraction 
 - Cloudinary AI - Image recognition and document verification 
-- Snowflake - AI data warehouse for ML models 
+- Snowflake - AI data warehouse for ML models,Snowflake API
 - Power BI - Analytics and dashboards 
 - JWT - Secure authentication 
  
 --- 
  
-## ? Features 
+##  Features 
  
 ### User Features 
 - Secure Registration and Login JWT 
@@ -93,7 +93,7 @@
  
 --- 
  
-## ?? Installation and Setup 
+##  Installation and Setup 
  
 ### Prerequisites 
 - Java 17+ 
@@ -120,7 +120,7 @@ npm install
  
 --- 
  
-## ?? Running the Application 
+##  Running the Application 
  
 ### Start Backend Terminal 1 
 ```bash 
@@ -143,7 +143,7 @@ npm start
  
 --- 
  
-## ?? Contact 
+##  Contact 
  
 - **GitHub**: https://github.com/SRIKANTHBHAGYANAGARAJ 
 - **Repository**: https://github.com/SRIKANTHBHAGYANAGARAJ/mortgage-io 
