@@ -1,4 +1,4 @@
-# ?? Mortgage-io - Full-Stack Data Realtime Mortgage Application with AI Integration and DataPiple
+#  Mortgage-io - Full-Stack Data Realtime Mortgage Application with AI Integration and DataPiple
  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.18-brightgreen) 
 ![React](https://img.shields.io/badge/React-18.2.0-blue) 
@@ -22,6 +22,16 @@
  
 ### 3) Dashboard 
 ![Dashboard](./images/dashboard.png) 
+
+### 4)Piple line 1 : <img width="1241" height="441" alt="Pipeline3" src="https://github.com/user-attachments/assets/a2fc19a4-bf09-4080-b37e-ef640496fe6e" />
+
+### 5)Piple line 2 :
+ <img width="755" height="300" alt="Pipeline1" src="https://github.com/user-attachments/assets/4a27e6c9-5079-47b0-b498-5d2331ab2789" />
+
+### 6)Piple line 3 : <img width="1241" height="441" alt="Pipeline3" src="https://github.com/user-attachments/assets/ae578dc2-a6a0-43f7-a912-1b0bb8d142e9" />
+
+
+
  
 --- 
  
@@ -54,8 +64,7 @@
 - CSS Modules 
  
 --- 
- 
- 
+  
 --- 
  
 ##  Features 
